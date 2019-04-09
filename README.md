@@ -7,21 +7,25 @@
 [ci]:      https://travis-ci.org/itmvp@qq.com/postcss-cubeui-transform
 
 ```css
-.foo {
-    /* Input example */
+.cube {
+    font-size: 12px;
 }
 ```
 
 ```css
-.foo {
-  /* Output example */
+.cube {
+  font-size: 24px;
 }
 ```
 
 ## Usage
 
 ```js
-postcss([ require('postcss-cubeui-transform') ])
+module.exports = {
+   'postcss-cubeui-transform': {
+      exclude: /(src)/
+   }
+}
 ```
 
 See [PostCSS] docs for examples for your environment.

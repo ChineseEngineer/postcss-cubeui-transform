@@ -1,6 +1,6 @@
 {
   "name": "postcss-cubeui-transform",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostCSS plugin cube-ui to 750",
   "keywords": [
     "postcss",
